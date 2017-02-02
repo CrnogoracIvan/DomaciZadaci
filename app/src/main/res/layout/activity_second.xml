@@ -8,18 +8,42 @@
 
 
     <Button
-        android:text="@string/start_camera"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:onClick="btnStartOpenCamera" />
-
-    <Button
         android:text="@string/open_camera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2"
         android:onClick="btnOpenCameraClicked"
         android:drawableBottom="@drawable/ic_camera_clicked" />
+
+<!-- podaci o jelu -->
+    <TextView
+        android:id="@+id/tv_naziv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_slika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_opis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- TextView displays text to the user. -->
+    <RatingBar
+        android:id="@+id/rb_zvezdice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"/>
+
+    <!-- Button can be pressed, or clicked, by the user to perform an action. -->
+    <Button
+        android:id="@+id/btn_kupi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_buy" />
+
 </LinearLayout>
 

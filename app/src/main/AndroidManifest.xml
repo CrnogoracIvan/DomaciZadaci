@@ -13,8 +13,7 @@
         android:icon="@mipmap/ic_launcher">
         <!-- Ikonica aplikacije je red iznad -->
 
-        <!-- Declares 3nd activity -->
-
+        <!-- Privilegije za otvaranje kamere su ispod -->
 
         <uses-permission android:name="android.permission.CAMERA" />
         <uses-feature android:name="android.hardware.camera" android:required="true" />

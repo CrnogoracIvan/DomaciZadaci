@@ -5,6 +5,5 @@
     <string name="open_browser">Otvori internet pretrazivac</string>
 
     //Druga aktivnost
-    <string name="open_camera">Otvori kameru</string>
-    <string name="start_camera">Startuj kameru </string>
+    <string name="open_camera">Startuj kameru </string>
 </resources>
