@@ -16,9 +16,9 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) 	{
 
 		// Each lifecycle method should call the method it overrides
-		super.onCreate(savedInstanceState);
+	super.onCreate(savedInstanceState);
 		// setContentView method draws UI
-		setContentView(R.layout.activity_main);
+	setContentView(R.layout.activity_main);
 	}
 
 	// onStart method is a lifecycle method called after onCreate (or after onRestart when the
